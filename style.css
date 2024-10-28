@@ -1,0 +1,41 @@
+body {
+    background-color: antiquewhite;
+    background-image: linear-gradient(purple, blue, green, yellow, orange, red);
+}
+
+video {
+    margin: 130px 200px 200px 300px;
+    size: 50%;
+    border-radius: 20px 20px 20px 20px;
+}
+
+h1 {
+    background-image: linear-gradient(purple, blue, green, yellow, orange, red);
+    text-align: center;
+    margin: 0px;
+    width: 100%;
+    color: white;
+    padding: 2px 2px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    box-shadow: 0px 3px 3px 2px black;
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        text-align: left;
+        font-size: 14px;
+        font-family: 'Montserrot', sans-serif;
+         max-width: 800px !important; 
+         margin-top: 0px;
+    
+    }
+
+    @media scren and (max-width: 850px) {
+        .margin{
+            margin-right: 20px;
+            margin-left: 20px;
+        }
+    }
+}
